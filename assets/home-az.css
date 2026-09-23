@@ -263,3 +263,26 @@
   .pagina-home .az-talk .talk-copy { min-height: 0; }
   .pagina-home .az-talk .lead { margin-top: 14px; }
 }
+@media (max-width: 700px) {
+  .pagina-home .az-hero {
+    min-height: 0;
+    display: block;
+  }
+  .pagina-home .az-hero-bg {
+    position: relative;
+    inset: auto;
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    max-height: none;
+    object-fit: contain;
+    object-position: center center;
+  }
+  .pagina-home .az-hero::after { display: none; }
+  .pagina-home .az-hero .wrap {
+    padding: 22px 0 36px;
+    background: #0E475B;
+  }
+  .pagina-home .az-strip-wrap { margin-top: 0; }
+}

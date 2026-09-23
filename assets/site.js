@@ -29,11 +29,6 @@
   });
 
   var locale = location.hostname === "127.0.0.1" || location.hostname === "localhost";
-  if (locale) {
-    document.querySelectorAll('a[aria-label="AncheCasa, vai al sito"]').forEach(function (a) {
-      a.href = "http://127.0.0.1:4688/sito/index.html";
-    });
-  }
 
   var navBar = document.querySelector(".site-header .nav");
   var burger = document.getElementById("burger");
@@ -139,7 +134,7 @@
     }
     footMount.outerHTML =
       '<footer class="ac-foot"><div class="wrap"><div class="ac-foot-grid">' +
-      '<div class="ac-foot-brand"><a class="ac-foot-logo" href="' + root + 'index.html" aria-label="AncheCasa, vai alla home">' +
+      '<div class="ac-foot-brand"><a class="ac-foot-logo" href="https://www.anchecasa.it/" aria-label="AncheCasa, vai alla home">' +
       '<img src="assets/anchecasa-orizzontale.png?v=1" alt="AncheCasa"></a>' +
       '<p class="ac-foot-claim">Una piazza sola <span>per tutti</span></p>' +
       '<nav class="ac-foot-legal" aria-label="Informazioni legali">' +
