@@ -280,9 +280,12 @@
     object-position: center center;
   }
   .pagina-home .az-hero::after { display: none; }
+  .pagina-home .az-hero .hero-ghost,
+  .pagina-home .az-hero h1 > br { display: none; }
   .pagina-home .az-hero .wrap {
-    padding: 22px 0 36px;
+    padding: 20px 0 36px;
     background: #0E475B;
   }
+  .pagina-home .az-hero h1 { margin-top: 0; }
   .pagina-home .az-strip-wrap { margin-top: 0; }
 }

@@ -876,7 +876,7 @@ a.detail:hover {
   .copy { flex-direction: column; }
   .head-row { align-items: start; }
   .head-row .btn { width: 100%; }
-  .brand img.anche { height: 66px; width: auto; max-width: 70vw; object-fit: contain; }
+  .brand img.anche { height: 66px; width: auto; max-width: calc(70vw + 3px); object-fit: contain; }
 }
 
 /* CONGELATO 23.09.2026. Footer Sicura (.ac-foot). Una fascia bianca.
