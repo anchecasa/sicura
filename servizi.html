@@ -1,184 +1,127 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta property="og:image" content="https://anchecasa.github.io/sicura/assets/whatsapp-card.jpg" />
-  <meta property="og:url" content="https://anchecasa.github.io/sicura/servizi.html" />
-  <title>Servizi · Anche Casa</title>
+  <title>Servizi · Sicura S.r.l.</title>
+  <meta name="description" content="I servizi Sicura per le aziende della rete: sicurezza sul lavoro, cantieri, formazione, medicina, certificazioni, persone, organizzazione e privacy." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/site.css?v=12" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/site.css?v=28" />
+  <link rel="stylesheet" href="assets/home-az.css?v=25" />
+  <link rel="stylesheet" href="assets/pagine.css?v=3" />
 </head>
-<body>
+<body class="az-home pagina-servizi">
   <header class="site-header">
     <div class="wrap nav">
-      <a class="brand" href="index.html">
-        <img class="anche" src="assets/anche-casa-logo.jpg" alt="Anche Casa" />
-        <span class="partner"><span class="lab">Partner</span><img class="lockup" src="assets/sicura-lockup.png" alt="Sicura S.r.l." /></span>
-      </a>
+      <div class="brand">
+        <a href="https://sito-preview.vercel.app/sito/index.html" aria-label="AncheCasa, vai al sito">
+          <img class="anche" src="assets/anchecasa-orizzontale.png?v=1" alt="Anche Casa" />
+        </a>
+      </div>
       <nav class="nav-links" id="menu">
         <a href="index.html">Home</a>
         <a href="chi-siamo.html">Chi siamo</a>
-        <a class="active" href="servizi.html">Servizi</a>
+        <a href="corsi.html">Corsi</a>
         <a href="progetti.html">Settori</a>
         <a href="contatti.html">Contatti</a>
       </nav>
       <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
   </header>
-
-  <section class="page-hero">
+  <main>
+    <section class="srv-testa">
+      <div class="wrap">
+        <p class="kicker">Servizi</p>
+        <h1>Otto incarichi. Un solo riferimento.</h1>
+        <p class="lead ink">Sicura affianca le aziende della rete su DVR, cantieri, formazione, medicina del lavoro e gli adempimenti che restano nel tempo.</p>
+      </div>
+    </section>
     <div class="wrap">
-      <p class="eyebrow">Servizi</p>
-      <h1>I servizi sul territorio</h1>
-      <p class="lead">Anche Casa offre questi servizi a tutte le aziende della rete, in tutte le regioni d’Italia, con Sicura S.r.l.</p>
-      <div class="jump-grid">
-        <a class="jump-card" style="--svc-img:url('svc-sicurezza.webp?v=2')" href="#sicurezza-lavoro">
-          <div><h3>Sicurezza sul lavoro</h3><span class="more">Scorri →</span></div>
-        </a>
-        <a class="jump-card" style="--svc-img:url('svc-cantieri.webp?v=2')" href="#direttiva-cantieri">
-          <div><h3>Direttiva cantieri</h3><span class="more">Scorri →</span></div>
-        </a>
-        <a class="jump-card" style="--svc-img:url('svc-formazione.webp?v=2')" href="#formazione">
-          <div><h3>Formazione</h3><span class="more">Scorri →</span></div>
-        </a>
-        <a class="jump-card" style="--svc-img:url('svc-medicina.webp?v=2')" href="#medicina">
-          <div><h3>Medicina del lavoro</h3><span class="more">Scorri →</span></div>
-        </a>
-        <a class="jump-card" style="--svc-img:url('svc-hr.webp?v=2')" href="#hr">
-          <div><h3>Risorse umane</h3><span class="more">Scorri →</span></div>
-        </a>
-        <a class="jump-card" style="--svc-img:url('svc-certificazioni.webp?v=2')" href="#certificazioni">
-          <div><h3>Certificazioni</h3><span class="more">Scorri →</span></div>
-        </a>
-        <a class="jump-card" style="--svc-img:url('svc-organizzazione.webp?v=2')" href="#organizzazione">
-          <div><h3>Organizzazione</h3><span class="more">Scorri →</span></div>
-        </a>
-        <a class="jump-card" style="--svc-img:url('svc-privacy.webp?v=2')" href="#privacy">
-          <div><h3>Privacy & GDPR</h3><span class="more">Scorri →</span></div>
+      <ol class="srv-indice">
+        <li id="sicurezza-lavoro">
+          <span class="num">01</span>
+          <div>
+            <h3>Sicurezza sul lavoro</h3>
+            <p>RSPP esterno, documento di valutazione dei rischi e rapporti con gli organi di vigilanza.</p>
+          </div>
+          <img src="assets/svc-sicurezza.webp?v=2" alt="Sicurezza sul lavoro">
+        </li>
+        <li id="direttiva-cantieri">
+          <span class="num">02</span>
+          <div>
+            <h3>Direttiva cantieri</h3>
+            <p>CSP, CSE, piani di sicurezza e direzione lavori, fino alla chiusura del cantiere.</p>
+          </div>
+          <img src="assets/svc-cantieri.webp?v=2" alt="Direttiva cantieri">
+        </li>
+        <li id="formazione">
+          <span class="num">03</span>
+          <div>
+            <h3>Formazione</h3>
+            <p>Corsi online e corsi in presenza: lavoratori, preposti, dirigenti, macchine, antincendio, primo soccorso e HACCP. <a href="corsi.html">Vedi i corsi</a></p>
+          </div>
+          <img src="assets/svc-formazione.webp?v=2" alt="Formazione">
+        </li>
+        <li id="medicina">
+          <span class="num">04</span>
+          <div>
+            <h3>Medicina del lavoro</h3>
+            <p>Sorveglianza sanitaria e protocolli scritti sulla mansione, con il medico competente.</p>
+          </div>
+          <img src="assets/svc-medicina.webp?v=2" alt="Medicina del lavoro">
+        </li>
+        <li id="certificazioni">
+          <span class="num">05</span>
+          <div>
+            <h3>Certificazioni</h3>
+            <p>Percorso prima della certificazione e seguito dopo, quando il sistema è già in piedi.</p>
+          </div>
+          <img src="assets/svc-certificazioni.webp?v=2" alt="Certificazioni">
+        </li>
+        <li id="hr">
+          <span class="num">06</span>
+          <div>
+            <h3>Risorse umane</h3>
+            <p>Carichi di lavoro, coaching e supporto alle persone che tengono il cantiere.</p>
+          </div>
+          <img src="assets/svc-hr.webp?v=2" alt="Risorse umane">
+        </li>
+        <li id="organizzazione">
+          <span class="num">07</span>
+          <div>
+            <h3>Organizzazione</h3>
+            <p>Processi, ruoli e procedure operative, scritti in modo che si usino sul posto.</p>
+          </div>
+          <img src="assets/svc-organizzazione.webp?v=2" alt="Organizzazione">
+        </li>
+        <li id="privacy">
+          <span class="num">08</span>
+          <div>
+            <h3>Privacy</h3>
+            <p>Adeguamento documentale e formazione privacy, nello stesso fascicolo del lavoro.</p>
+          </div>
+          <img src="assets/svc-privacy.webp?v=2" alt="Privacy">
+        </li>
+      </ol>
+    </div>
+    <section class="srv-chiusura fondo-scuro">
+      <div class="wrap">
+        <h2>Dimmi il servizio. Ti rispondiamo con una proposta.</h2>
+        <a class="btn-lente" href="contatti.html">
+          <span class="btn-lente-orb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="21" height="21" fill="none">
+              <circle cx="10.2" cy="10.2" r="5.7" stroke="#fff" stroke-width="2.1"/>
+              <path d="M14.5 14.5 L19.6 19.6" stroke="#fff" stroke-width="2.1" stroke-linecap="round"/>
+            </svg>
+          </span>
+          Chiedi un’offerta
         </a>
       </div>
-    </div>
-  </section>
-
-  <section class="section alt">
-    <div class="wrap">
-      <article class="detail" id="sicurezza-lavoro">
-        <p class="meta">01</p>
-        <h3>Sicurezza sul lavoro</h3>
-        <div class="detail-media" style="background-image:url('assets/svc-sicurezza.webp?v=2')"></div>
-        <p class="lead">Incarico RSPP, DVR aggiornato e gestione dei rapporti con gli organi di vigilanza.</p>
-        <ul>
-          <li>Consulenza per la Salute e la Sicurezza dei Luoghi di Lavoro</li>
-          <li>Incarico RSPP esterno</li>
-          <li>Documento di Valutazione Rischi (DVR)</li>
-          <li>Gestione rapporti con gli Organi di Vigilanza</li>
-        </ul>
-      </article>
-
-      <article class="detail" id="direttiva-cantieri">
-        <p class="meta">02</p>
-        <h3>Direttiva cantieri</h3>
-        <div class="detail-media" style="background-image:url('assets/svc-cantieri.webp?v=2')"></div>
-        <p class="lead">Nomine CSP/CSE, redazione PSC POS PIMUS e direzione lavori fino alla chiusura cantiere.</p>
-        <ul>
-          <li>Nomine Coordinatori Sicurezza (CSP e CSE)</li>
-          <li>Redazione piani PSC, PSS, POS</li>
-          <li>Direzione lavori e coordinamento cantieri</li>
-          <li>Contratti di appalto e stesura PIMUS</li>
-        </ul>
-      </article>
-
-      <article class="detail" id="formazione">
-        <p class="meta">03</p>
-        <h3>Formazione del personale</h3>
-        <div class="detail-media" style="background-image:url('assets/svc-formazione.webp?v=2')"></div>
-        <p class="lead">Corsi per lavoratori, preposti, macchine, antincendio, primo soccorso e HACCP.</p>
-        <ul>
-          <li>RSPP, RLS, Preposti e aggiornamenti</li>
-          <li>Lavoratori rischio basso, medio, alto</li>
-          <li>Macchine e attrezzature, lavori in quota, DPI III</li>
-          <li>Antincendio, primo soccorso, HACCP, fondi interprofessionali</li>
-        </ul>
-      </article>
-
-      <article class="detail" id="medicina">
-        <p class="meta">04</p>
-        <h3>Medicina del lavoro</h3>
-        <div class="detail-media" style="background-image:url('assets/svc-medicina.webp?v=2')"></div>
-        <p class="lead">Medico competente, protocollo sanitario e calendario visite per ogni mansione.</p>
-        <ul>
-          <li>Nomina del medico competente e sorveglianza sanitaria</li>
-          <li>Protocolli sanitari personalizzati</li>
-          <li>Visite periodiche</li>
-        </ul>
-      </article>
-
-      <article class="detail" id="hr">
-        <p class="meta">05</p>
-        <h3>Gestione risorse umane</h3>
-        <div class="detail-media" style="background-image:url('assets/svc-hr.webp?v=2')"></div>
-        <p class="lead">Supporto organizzativo al personale, senza sovrapporsi agli incarichi di cantiere.</p>
-        <ul>
-          <li>Ottimizzazione dei carichi di lavoro</li>
-          <li>Business coaching</li>
-          <li>Consulente del lavoro</li>
-        </ul>
-      </article>
-
-      <article class="detail" id="certificazioni">
-        <p class="meta">06</p>
-        <h3>Certificazioni aziendali</h3>
-        <div class="detail-media" style="background-image:url('assets/svc-certificazioni.webp?v=2')"></div>
-        <p class="lead">Accompagnamento ISO/SOA/231: analisi, gap e simulazioni di verifica.</p>
-        <ul>
-          <li>ISO 9001, 14001, 45001, 27001, 22000</li>
-          <li>EMAS, SOA, Modello 231</li>
-          <li>Check-up documentale e simulazioni ispettive</li>
-        </ul>
-      </article>
-
-      <article class="detail" id="organizzazione">
-        <p class="meta">07</p>
-        <h3>Organizzazione aziendale</h3>
-        <div class="detail-media" style="background-image:url('assets/svc-organizzazione.webp?v=2')"></div>
-        <p class="lead">Modelli organizzativi, formazione 231 e figura DPO collegati alla compliance.</p>
-        <ul>
-          <li>Consulenza legale e fiscale</li>
-          <li>Formazione 231 e DPO</li>
-        </ul>
-      </article>
-
-      <article class="detail" id="privacy">
-        <p class="meta">08</p>
-        <h3>Privacy & GDPR</h3>
-        <div class="detail-media" style="background-image:url('assets/svc-privacy.webp?v=2')"></div>
-        <p class="lead">Adeguamento documentale e formazione privacy per tutelare dati di clienti e lavoratori.</p>
-        <ul>
-          <li>Adeguamento GDPR e modelli documentali</li>
-          <li>Formazione del personale sulla protezione dei dati</li>
-          <li>Monitoraggio e prevenzione delle violazioni</li>
-        </ul>
-      </article>
-
-      <div class="partner-card block" style="margin-top:28px">
-        <img class="anche" src="assets/anche-casa-logo.jpg" alt="Anche Casa" />
-        <span class="lab">Partner</span>
-        <img class="sicura" src="assets/sicura-lockup.png" alt="Sicura S.r.l." />
-      </div>
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="wrap foot-bar">
-      <span>Anche Casa · tutte le aziende della rete · tutte le regioni</span>
-      <span>Partner Sicura S.r.l.</span>
-      <a href="mailto:rete@anchecasa.it">rete@anchecasa.it</a>
-      <span>Network Anche Casa</span>
-    </div>
-  </footer>
-  <script src="assets/site.js?v=5"></script>
+    </section>
+  </main>
+  <div id="ac-footer"></div>
+  <script src="assets/site.js?v=18"></script>
 </body>
 </html>
